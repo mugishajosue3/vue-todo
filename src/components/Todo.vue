@@ -52,7 +52,8 @@ export default {
     },
     handleAddTodo(e) {
       e.preventDefault();
-      const userId = this.getAccount["$id"];
+      
+      const userId = 1
       if (!userId || !this.content) {
         console.log("User id is null/empty");
       } else {

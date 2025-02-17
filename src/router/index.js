@@ -26,7 +26,7 @@ const routes = [
     name: "Todo",
     component: Todo,
     meta: {
-      requiresAuth: true,
+      requiresAuth: false,
     },
   },
   {
